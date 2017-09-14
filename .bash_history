@@ -100,3 +100,105 @@ ocaml iter.ml
 vi iter.ml 
 ocaml iter.ml 
 vi iter.ml 
+ls
+vi remove_sequential_duplicates.ml 
+vii
+vi
+vi merge_list.ml 
+git add .
+git commit -m ""
+git commit -m "."
+git push origin master
+
+ocaml merge_list.ml 
+vi merge_list.ml 
+ocaml merge_list.ml 
+vi merge_list.ml 
+ocaml merge_list.ml 
+vi merge_list.ml 
+ocaml merge_list.ml 
+vi merge_list.ml 
+ocaml merge_list.ml 
+vi merge_list.ml 
+ocaml merge_list.ml 
+vi merge_list.ml 
+ocaml merge_list.ml 
+vi merge_list.ml 
+ocaml merge_list.ml 
+vi merge_list.ml 
+ocaml merge_list.ml 
+vi merge_list.ml 
+ocaml merge_list.ml 
+vi merge_list.ml 
+ocaml merge_list.ml 
+vi merge_list.ml 
+ocaml merge_list.ml 
+vi merge_list.ml 
+ocaml merge_list.ml 
+vi merge_list.ml 
+ocaml merge_list.ml 
+vi merge_list.ml 
+ocaml merge_list.ml 
+vi merge_list.ml 
+ocaml merge_list.ml 
+vi merge_list.ml 
+ocaml merge_list.ml 
+vi merge_list.ml 
+ocaml merge_list.ml 
+vi merge_list.ml 
+ocaml merge_list.ml 
+vi merge_list.ml 
+ocaml
+ls
+vi merge_list.ml 
+ocaml
+ls
+vi merge_list.ml 
+ls
+ocaml merge_list.ml 
+vi merge_list.ml 
+ocaml merge_list.ml 
+vi merge_list.ml 
+ocaml merge_list.ml 
+vi merge_list.ml 
+ocaml merge_list.ml 
+vi merge_list.ml 
+ocaml merge_list.ml 
+vi merge_list.ml 
+git add .
+git commit -m "."
+git push origin master
+vi
+ocaml sigma.ml
+vi sigma.ml 
+ocaml
+vi sigma.ml 
+ocaml sigma.ml 
+vi sigma.ml 
+ocaml
+vi sigma.ml 
+ocaml
+vi sigma.ml 
+ocaml
+vi sigma.ml 
+ocaml sigma.ml 
+vi sigma.ml 
+ocaml sigma.ml 
+vi sigma.ml 
+git add .
+git commit -m "."
+git push origin master
+vi
+vi iter.ml
+ocaml iter.ml
+vi iter.ml
+ocaml iter.ml
+vi iter.ml
+ocaml
+vi iter.ml 
+ocaml iter.ml
+vi iter.ml 
+ocaml iter.ml
+vi iter.ml 
+ocaml iter.ml
+vi iter.ml 
