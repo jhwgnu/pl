@@ -9,14 +9,15 @@
 ~h
 # Command Line History (newest to oldest):
 :wq
-:Wq
 :q
+:q!
+:wq sigma.ml
+:Wq
 :wq merge_list.ml
 :wq list_sum.ml
 :wq remove_sequential_duplicates.ml
 :wq favorite.ml
 :wq add_even.ml
-:q!
 :wq echo.ml
 :wq incr.ml
 :wq square.ml
@@ -50,21 +51,26 @@
 	let k = echo y
 	:
 ""-	CHAR	0
-	f
+	e
 
 # File marks:
-'0  12  1  ~/merge_list.ml
-'1  16  25  ~/merge_list.ml
-'2  17  35  ~/merge_list.ml
-'3  15  15  ~/merge_list.ml
-'4  1  0  ~/merge_list.ml
-'5  9  18  ~/remove_sequential_duplicates.ml
-'6  12  28  ~/remove_sequential_duplicates.ml
-'7  2  16  ~/remove_sequential_duplicates.ml
-'8  12  28  ~/remove_sequential_duplicates.ml
-'9  1  0  ~/list_sum.ml
+'0  9  1  ~/sigma.ml
+'1  2  6  ~/sigma.ml
+'2  6  14  ~/sigma.ml
+'3  6  15  ~/sigma.ml
+'4  1  0  ~/sigma.ml
+'5  8  42  ~/sigma.ml
+'6  12  1  ~/merge_list.ml
+'7  16  25  ~/merge_list.ml
+'8  17  35  ~/merge_list.ml
+'9  15  15  ~/merge_list.ml
 
 # Jumplist (newest first):
+-'  9  1  ~/sigma.ml
+-'  1  0  ~/sigma.ml
+-'  2  6  ~/sigma.ml
+-'  6  14  ~/sigma.ml
+-'  8  42  ~/sigma.ml
 -'  12  1  ~/merge_list.ml
 -'  1  0  ~/merge_list.ml
 -'  16  25  ~/merge_list.ml
@@ -156,15 +162,27 @@
 -'  3  0  ~/hello.ml
 -'  1  4  ~/hello.ml
 -'  3  0  ~/hello.ml
--'  1  4  ~/hello.ml
--'  3  0  ~/hello.ml
--'  1  4  ~/hello.ml
--'  3  0  ~/hello.ml
--'  1  4  ~/hello.ml
--'  3  0  ~/hello.ml
--'  1  4  ~/hello.ml
 
 # History of marks within files (newest to oldest):
+
+> ~/sigma.ml
+	"	9	1
+	^	9	2
+	.	9	1
+	+	9	2
+	+	2	20
+	+	2	16
+	+	2	12
+	+	9	2
+	+	2	5
+	+	3	28
+	+	8	42
+	+	6	14
+	+	2	6
+	+	7	0
+	+	4	0
+	+	5	1
+	+	9	1
 
 > ~/merge_list.ml
 	"	12	1
