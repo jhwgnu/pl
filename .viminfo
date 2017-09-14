@@ -9,12 +9,12 @@
 ~h
 # Command Line History (newest to oldest):
 :wq
+:Wq
+:q
 :wq merge_list.ml
 :wq list_sum.ml
-:q
 :wq remove_sequential_duplicates.ml
 :wq favorite.ml
-:Wq
 :wq add_even.ml
 :q!
 :wq echo.ml
@@ -50,26 +50,29 @@
 	let k = echo y
 	:
 ""-	CHAR	0
-	l
+	f
 
 # File marks:
-'0  6  9  ~/merge_list.ml
-'1  4  0  ~/merge_list.ml
-'2  8  0  ~/remove_sequential_duplicates.ml
-'3  2  16  ~/remove_sequential_duplicates.ml
-'4  8  28  ~/remove_sequential_duplicates.ml
-'5  1  0  ~/list_sum.ml
-'6  8  44  ~/list_sum.ml
-'7  7  0  ~/favorite.ml
-'8  8  41  ~/favorite.ml
-'9  2  12  ~/add_even.ml
+'0  12  1  ~/merge_list.ml
+'1  16  25  ~/merge_list.ml
+'2  17  35  ~/merge_list.ml
+'3  15  15  ~/merge_list.ml
+'4  1  0  ~/merge_list.ml
+'5  9  18  ~/remove_sequential_duplicates.ml
+'6  12  28  ~/remove_sequential_duplicates.ml
+'7  2  16  ~/remove_sequential_duplicates.ml
+'8  12  28  ~/remove_sequential_duplicates.ml
+'9  1  0  ~/list_sum.ml
 
 # Jumplist (newest first):
--'  6  9  ~/merge_list.ml
+-'  12  1  ~/merge_list.ml
 -'  1  0  ~/merge_list.ml
--'  4  0  ~/merge_list.ml
--'  8  0  ~/remove_sequential_duplicates.ml
+-'  16  25  ~/merge_list.ml
+-'  17  35  ~/merge_list.ml
+-'  15  15  ~/merge_list.ml
+-'  9  18  ~/remove_sequential_duplicates.ml
 -'  1  0  ~/remove_sequential_duplicates.ml
+-'  12  28  ~/remove_sequential_duplicates.ml
 -'  2  16  ~/remove_sequential_duplicates.ml
 -'  1  0  ~/list_sum.ml
 -'  8  44  ~/list_sum.ml
@@ -160,33 +163,75 @@
 -'  1  4  ~/hello.ml
 -'  3  0  ~/hello.ml
 -'  1  4  ~/hello.ml
--'  3  0  ~/hello.ml
--'  1  4  ~/hello.ml
--'  4  0  ~/incr.ml
 
 # History of marks within files (newest to oldest):
 
 > ~/merge_list.ml
-	"	6	9
-	^	6	10
-	.	4	7
-	+	6	9
-	+	4	7
+	"	12	1
+	^	12	2
+	.	18	1
+	+	3	9
+	+	1	7
+	+	4	67
+	+	4	11
+	+	4	77
+	+	4	123
+	+	4	156
+	+	4	121
+	+	4	140
+	+	4	78
+	+	4	150
+	+	4	83
+	+	4	85
+	+	4	80
+	+	4	54
+	+	4	19
+	+	6	7
+	+	5	4
+	+	8	42
+	+	10	4
+	+	7	17
+	+	8	43
+	+	9	6
+	+	1	27
+	+	8	45
+	+	9	26
+	+	8	33
+	+	9	19
+	+	2	0
+	+	4	14
+	+	7	16
+	+	8	44
+	+	9	6
+	+	17	47
+	+	17	7
+	+	17	84
+	+	17	84
+	+	17	69
+	+	1	11
+	+	17	45
+	+	16	5
+	+	17	35
+	+	1	0
+	+	2	0
+	+	12	0
+	+	16	23
+	+	17	0
+	+	13	10
+	+	16	9
+	+	17	38
+	+	12	1
+	+	18	1
 
 > ~/remove_sequential_duplicates.ml
-	"	8	0
-	^	11	26
-	.	9	0
+	"	9	18
+	^	12	29
+	.	9	17
 	+	2	16
-	+	8	29
-	+	9	0
-	+	8	16
-	+	9	0
-	+	11	0
-	+	9	7
-	+	1	7
-	+	11	0
-	+	9	0
+	+	12	29
+	+	13	0
+	+	10	0
+	+	9	17
 
 > ~/list_sum.ml
 	"	1	0

@@ -50,3 +50,47 @@ vi echo.ml
 ocaml echo.ml
 vi echo.ml
 ocaml
+vi
+ls
+ocaml add_even.ml
+vi add_even.ml
+ocaml
+vi add_even.ml
+ocaml add_even.ml
+vi add_even.ml 
+ocaml add_even.ml
+vi add_even.ml 
+ocaml add_even.ml
+git remote -v
+git init
+git remote add origin https://github.com/jhwgnu/pl
+git add .
+git status
+git commit -m "init"
+git config --global user.email jhwgnu@hanmail.net
+git config --global user.name jonghoon
+git commit -m "init"
+git push origin master
+ls
+vi add_even.ml
+ocaml add_even.ml
+ocaml
+ls
+vi add_even.ml 
+ocaml add_even.ml
+ocaml
+vi
+ocaml favorite.ml
+vi favorite.ml 
+vi
+ocaml list_sum.ml 
+vi list_sum.ml 
+ocaml list_sum.ml 
+vi list_sum.ml 
+vi
+ocaml remove_sequential_duplicates.ml 
+vi remove_sequential_duplicates.ml 
+ocaml remove_sequential_duplicates.ml 
+vi remove_sequential_duplicates.ml 
+ocaml remove_sequential_duplicates.ml 
+vi remove_sequential_duplicates.ml 
