@@ -31,3 +31,22 @@ ls
 vi
 ls
 ocaml
+ocaml
+vi
+ocaml echo.ml
+gf
+ocaml echo.ml gogo
+ocaml echo.ml gogo1212
+vi echo.ml
+ls
+ocaml echo.ml
+vi echo.ml
+ocaml echo.ml
+vi echo.ml
+ocaml echo.ml
+vi echo.ml
+ocaml echo.ml
+vi echo.ml
+ocaml echo.ml
+vi echo.ml
+ocaml
