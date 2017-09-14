@@ -94,3 +94,9 @@ ocaml remove_sequential_duplicates.ml
 vi remove_sequential_duplicates.ml 
 ocaml remove_sequential_duplicates.ml 
 vi remove_sequential_duplicates.ml 
+ls
+vi iter.ml 
+ocaml iter.ml
+vi iter.ml 
+ocaml iter.ml 
+vi iter.ml 

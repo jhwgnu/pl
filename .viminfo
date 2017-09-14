@@ -7,12 +7,18 @@
 
 # hlsearch on (H) or off (h):
 ~h
+# Last Search Pattern:
+~Msle0~/\<let\>
+
 # Command Line History (newest to oldest):
 :wq
+:Wq
+:w
 :q
+:wq iter.ml
+:wq!
 :q!
 :wq sigma.ml
-:Wq
 :wq merge_list.ml
 :wq list_sum.ml
 :wq remove_sequential_duplicates.ml
@@ -23,9 +29,9 @@
 :wq square.ml
 :w incr.ml
 :w hello.ml
-:w
 
 # Search String History (newest to oldest):
+? \<let\>
 
 # Expression History (newest to oldest):
 
@@ -39,10 +45,14 @@
 	  (if a mod 2==0 then a else 0) + (if b mod 2==0 then b else 0)
 	let result = add_even_num 7 8
 "1	LINE	0
-	  (if a/2==0 then a else 0) + (if b/2==0 then b else 0)
+	let rec iter (n,f) x =
+	  if n>0 then iter (n-1,f) x
+	  else x
 "2	LINE	0
-	
+	  (if a/2==0 then a else 0) + (if b/2==0 then b else 0)
 "3	LINE	0
+	
+"4	LINE	0
 	let echo : unit -> unit = fun() ->
 	  let i = read_int() in
 	  let str = string_of_int i in
@@ -51,21 +61,22 @@
 	let k = echo y
 	:
 ""-	CHAR	0
-	e
+	l
 
 # File marks:
-'0  9  1  ~/sigma.ml
-'1  2  6  ~/sigma.ml
-'2  6  14  ~/sigma.ml
-'3  6  15  ~/sigma.ml
-'4  1  0  ~/sigma.ml
-'5  8  42  ~/sigma.ml
-'6  12  1  ~/merge_list.ml
-'7  16  25  ~/merge_list.ml
-'8  17  35  ~/merge_list.ml
-'9  15  15  ~/merge_list.ml
+'0  9  1  ~/iter.ml
+'1  7  19  ~/iter.ml
+'2  3  0  ~/iter.ml
+'3  1  7  ~/iter.ml
+'4  4  0  ~/iter.ml
 
 # Jumplist (newest first):
+-'  9  1  ~/iter.ml
+-'  1  0  ~/iter.ml
+-'  7  19  ~/iter.ml
+-'  3  0  ~/iter.ml
+-'  4  0  ~/iter.ml
+-'  6  0  ~/iter.ml
 -'  9  1  ~/sigma.ml
 -'  1  0  ~/sigma.ml
 -'  2  6  ~/sigma.ml
@@ -152,18 +163,48 @@
 -'  3  0  ~/hello.ml
 -'  1  4  ~/hello.ml
 -'  3  0  ~/hello.ml
--'  1  4  ~/hello.ml
--'  3  37  ~/square.ml
--'  1  0  ~/square.ml
--'  3  0  ~/hello.ml
--'  1  4  ~/hello.ml
--'  3  0  ~/hello.ml
--'  1  4  ~/hello.ml
--'  3  0  ~/hello.ml
--'  1  4  ~/hello.ml
--'  3  0  ~/hello.ml
+-'  9  1  ~/sigma.ml
+-'  1  0  ~/sigma.ml
+-'  2  6  ~/sigma.ml
 
 # History of marks within files (newest to oldest):
+
+> ~/iter.ml
+	"	9	1
+	^	9	2
+	.	9	1
+	+	4	19
+	+	4	0
+	+	4	20
+	+	12	41
+	+	12	42
+	+	13	42
+	+	11	14
+	+	12	24
+	+	4	13
+	+	10	0
+	+	15	1
+	+	10	1
+	+	14	1
+	+	6	41
+	+	7	42
+	+	4	0
+	+	6	0
+	+	1	0
+	+	2	63
+	+	7	27
+	+	1	7
+	+	2	41
+	+	2	65
+	+	2	55
+	+	7	19
+	+	2	28
+	+	3	8
+	+	7	26
+	+	3	24
+	+	7	19
+	+	5	0
+	+	9	1
 
 > ~/sigma.ml
 	"	9	1
