@@ -15,3 +15,5 @@ let rec foo k = function
     | MONE next -> foo(k+1) next - powerof2(k)
 
 let rec crazy2val = foo 0
+
+let crazy2add c1 c2 = crazy2val(c1) + crazy2val(c2)
