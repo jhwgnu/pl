@@ -202,3 +202,131 @@ ocaml iter.ml
 vi iter.ml 
 ocaml iter.ml
 vi iter.ml 
+vi iter.ml
+rm iter.ml
+vi
+ocaml iter.ml
+vi iter.ml
+ls
+vi iter.ml 
+ocaml iter.ml
+vi iter.ml 
+ocaml iter.ml
+vi iter.ml 
+ocaml iter.ml
+vi iter.ml 
+ocaml iter.ml
+vi iter.ml 
+ocaml iter.ml
+vi iter.ml 
+ocaml iter.ml
+vi iter.ml 
+ocaml iter.ml
+vi iter.ml 
+ocaml iter.ml
+vi iter.ml 
+ocaml iter.ml
+vi iter.ml 
+ocaml iter.ml
+vi iter.ml 
+git add .
+git commit -m "."
+git push origin master
+git pull origin master
+ocaml iter.ml
+ocaml merge_list.ml
+ocaml iter.ml
+vi
+ocaml nat.ml
+vi nat.ml
+ocaml nat.ml
+vi nat.ml
+ocaml nat.ml
+vi nat.ml
+ocaml nat.ml
+vi nat.ml
+ocaml nat.ml
+git add .
+git commit -m "."
+git push origin master
+git pull origin master
+ocaml nat.ml
+ls
+ocaml merge_list.ml
+ocaml sigma.ml
+ocaml iter.ml
+ocaml nat.ml
+vi
+ocaml
+vi
+ocaml sum_if_even.ml
+vi sum_if_even.ml 
+ocaml sum_if_even.ml
+vi
+ocaml
+vi
+ocaml
+vi
+vi test.ml
+ocaml test.ml
+vi test.ml
+ocaml test.ml
+vi test.ml
+ocaml test.ml
+vi test.ml
+ocaml test.ml
+vi test.ml
+ocaml test.ml
+vi test.ml
+ocaml test.ml
+vi test.ml
+ocaml test.ml
+vi test.ml
+ocaml test.ml
+vi test.ml
+ocaml test.ml
+vi test.ml
+ocaml test.ml
+vi test.ml
+ocaml test.ml
+vi test.ml
+ocaml test.ml
+vi test.ml
+ocaml test.ml
+vi test.ml
+ocaml test.ml
+vi test.ml
+ocaml test.ml
+vi test.ml
+ocaml test.ml
+vi test.ml
+ocaml test.ml
+vi test.ml
+ocaml test.ml
+vi test.ml
+ocaml test.ml
+vi test.ml
+ocaml test.ml
+vi test.ml
+ocaml test.ml
+vi test.ml
+ocaml test.ml
+vi test.ml
+ocaml test.ml
+vi test.ml
+ocaml test.ml
+vi test.ml
+ocaml test.ml
+vi test.ml
+ocaml test.ml
+vi test.ml
+vi
+ocaml print.ml
+vi
+vi print.ml
+ocaml print.ml
+vi print.ml
+ocaml print.ml
+vi test.ml
+ocaml print.ml
+ocaml test.ml
