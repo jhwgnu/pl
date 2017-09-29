@@ -17,7 +17,7 @@ let rec cal = function
 let rec eval = function
 	| TRUE -> true
 	| FALSE -> false
-	| NOT form -> eval form
+	| NOT form -> not(eval(form))
 	| ANDALSO (form1, form2) -> eval(form1) && eval(form2)
 	| ORELSE (form1, form2) -> eval(form1) || eval(form2)
 	| IMPLY (form1, form2) ->

@@ -330,3 +330,109 @@ ocaml print.ml
 vi test.ml
 ocaml print.ml
 ocaml test.ml
+vi
+ocaml eval.ml
+vi eval.ml
+ocaml eval.ml
+vi eval.ml
+ocaml eval.ml
+vi eval.ml
+ocaml eval.ml
+vi eval.ml
+ocaml eval.ml
+vi eval.ml
+ocaml eval.ml
+vi eval.ml
+ocaml eval.ml
+vi eval.ml
+ocaml eval.ml
+vi eval.ml
+ocaml eval.ml
+vi eval.ml
+ocaml eval.ml
+vi eval.ml
+git status
+git add .
+git commit -m "2-1"
+git push origin master
+git add .
+git commit -m "add test"
+git pull origin master
+ocaml eval.ml
+vi eval.ml
+ocaml eval.ml
+vi eval.ml
+ocaml eval.ml
+vi eval.ml
+ocaml eval.ml
+vi eval.ml
+ocaml eval.ml
+vi eval.ml
+ocaml eval.ml
+vi eval.ml
+vi
+vi crazy2.ml
+ocaml crazy2.ml
+vi crazy2.ml
+ocaml crazy2.ml
+vi crazy2.ml
+ocaml crazy2.ml
+vi crazy2.ml
+ocaml crazy2.ml
+vi crazy2.ml
+ocaml crazy2.ml
+vi crazy2.ml
+ls
+rename crazy2add crazy2add.ml
+ren crazy2add crazy2add.ml
+vi crazy2.ml
+rm crazy2add
+vi
+vi crazy2val.ml
+rm crazy2add
+ocaml crazy2val.ml 
+vi crazy2val.ml
+ocaml crazy2val.ml 
+vi crazy2val.ml
+ocaml crazy2val.ml 
+vi crazy2val.ml
+ocaml crazy2val.ml 
+vi crazy2val.ml
+ocaml crazy2val.ml 
+vi crazy2val.ml
+ocaml crazy2val.ml 
+vi crazy2val.ml
+ocaml crazy2val.ml 
+vi crazy2val.ml
+ocaml crazy2val.ml 
+vi crazy2val.ml
+ocaml crazy2val.ml 
+vi crazy2val.ml
+ocaml crazy2val.ml 
+vi crazy2val.ml
+ocaml crazy2val.ml 
+vi crazy2val.ml
+ocaml crazy2val.ml 
+vi crazy2val.ml
+ocaml crazy2val.ml 
+vi crazy2val.ml
+ocaml crazy2val.ml 
+vi crazy2val.ml
+ocaml crazy2val.ml 
+vi crazy2val.ml
+ocaml crazy2val.ml 
+vi crazy2val.ml
+ocaml crazy2val.ml 
+vi crazy2val.ml
+ocaml crazy2val.ml 
+vi crazy2val.ml
+ocaml crazy2val.ml 
+vi crazy2val.ml
+ocaml crazy2val.ml 
+vi crazy2val.ml
+ocaml crazy2val.ml 
+vi crazy2val.ml
+ocaml crazy2val.ml 
+vi crazy2val.ml
+ocaml crazy2val.ml 
+vi crazy2val.ml

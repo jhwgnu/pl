@@ -11,14 +11,19 @@
 ~Msle0~/\<let\>
 
 # Command Line History (newest to oldest):
-:q
 :wq
+:q
+:q!
+:WQ
+:wq crazy2val.ml
+:!q
+:wq crazy2add
+:wq crazy2.ml
+:Wq
 :Q
 :wq eval.ml
 :wq print.ml
-:Wq
 :wq test.ml
-:q!
 :wq sum_if_even.ml
 :wq nat.ml
 :w
@@ -70,19 +75,38 @@
 	e
 
 # File marks:
-'0  1  0  ~/eval.ml
-'1  12  9  ~/eval.ml
-'2  14  17  ~/eval.ml
-'3  26  48  ~/eval.ml
-'4  21  54  ~/eval.ml
-'5  10  22  ~/eval.ml
-'6  16  17  ~/test.ml
-'7  1  0  ~/print.ml
-'8  1  0  ~/test.ml
-'9  15  16  ~/test.ml
+'0  10  0  ~/crazy2val.ml
+'1  16  0  ~/crazy2val.ml
+'2  9  0  ~/crazy2val.ml
+'3  14  30  ~/crazy2val.ml
+'4  9  26  ~/crazy2val.ml
+'5  15  11  ~/crazy2val.ml
+'6  13  28  ~/crazy2val.ml
+'7  11  14  ~/crazy2val.ml
+'8  11  23  ~/crazy2val.ml
+'9  19  17  ~/crazy2val.ml
 
 # Jumplist (newest first):
+-'  10  0  ~/crazy2val.ml
+-'  1  0  ~/crazy2val.ml
+-'  16  0  ~/crazy2val.ml
+-'  9  0  ~/crazy2val.ml
+-'  14  30  ~/crazy2val.ml
+-'  15  11  ~/crazy2val.ml
+-'  13  28  ~/crazy2val.ml
+-'  11  14  ~/crazy2val.ml
+-'  19  17  ~/crazy2val.ml
+-'  17  81  ~/crazy2val.ml
+-'  20  61  ~/crazy2val.ml
+-'  4  17  ~/crazy2val.ml
+-'  1  0  ~/crazy2.ml
+-'  9  8  ~/crazy2.ml
+-'  13  0  ~/crazy2.ml
+-'  7  15  ~/crazy2.ml
+-'  11  12  ~/crazy2.ml
+-'  5  0  ~/crazy2.ml
 -'  1  0  ~/eval.ml
+-'  20  29  ~/eval.ml
 -'  12  9  ~/eval.ml
 -'  14  17  ~/eval.ml
 -'  26  48  ~/eval.ml
@@ -160,32 +184,134 @@
 -'  3  0  ~/hello.ml
 -'  1  4  ~/hello.ml
 -'  3  0  ~/hello.ml
--'  1  4  ~/hello.ml
--'  3  37  ~/square.ml
--'  1  0  ~/square.ml
--'  3  0  ~/hello.ml
--'  1  4  ~/hello.ml
--'  3  0  ~/hello.ml
--'  1  4  ~/hello.ml
--'  3  0  ~/hello.ml
--'  1  4  ~/hello.ml
--'  3  0  ~/hello.ml
--'  1  4  ~/hello.ml
--'  3  0  ~/hello.ml
--'  1  4  ~/hello.ml
--'  3  0  ~/hello.ml
--'  1  4  ~/hello.ml
--'  3  0  ~/hello.ml
--'  1  4  ~/hello.ml
--'  3  0  ~/hello.ml
--'  1  4  ~/hello.ml
 
 # History of marks within files (newest to oldest):
 
+> ~/crazy2val.ml
+	"	10	0
+	^	10	0
+	.	10	0
+	+	17	40
+	+	17	52
+	+	17	50
+	+	4	105
+	+	4	106
+	+	4	17
+	+	17	19
+	+	17	18
+	+	17	37
+	+	17	48
+	+	17	35
+	+	17	46
+	+	17	34
+	+	17	44
+	+	17	18
+	+	4	30
+	+	17	67
+	+	4	18
+	+	17	19
+	+	17	76
+	+	17	62
+	+	17	110
+	+	4	34
+	+	17	96
+	+	17	110
+	+	17	86
+	+	17	118
+	+	17	63
+	+	17	27
+	+	17	26
+	+	17	59
+	+	17	82
+	+	17	103
+	+	5	0
+	+	17	15
+	+	17	27
+	+	17	14
+	+	17	57
+	+	17	53
+	+	17	19
+	+	17	15
+	+	17	27
+	+	17	66
+	+	17	107
+	+	17	65
+	+	17	96
+	+	17	104
+	+	17	54
+	+	17	79
+	+	17	116
+	+	20	73
+	+	20	1
+	+	5	1
+	+	20	63
+	+	20	0
+	+	5	0
+	+	17	18
+	+	17	27
+	+	17	48
+	+	17	79
+	+	17	88
+	+	17	71
+	+	17	87
+	+	19	16
+	+	18	3
+	+	17	72
+	+	17	22
+	+	11	22
+	+	14	8
+	+	11	26
+	+	11	13
+	+	11	23
+	+	17	24
+	+	11	13
+	+	11	15
+	+	13	29
+	+	16	0
+	+	14	1
+	+	15	0
+	+	14	41
+	+	15	19
+	+	14	32
+	+	15	12
+	+	6	20
+	+	9	29
+	+	11	15
+	+	7	4
+	+	6	17
+	+	9	28
+	+	9	7
+	+	9	27
+	+	14	39
+	+	6	17
+	+	8	8
+	+	9	25
+	+	14	41
+	+	15	42
+	+	5	0
+	+	10	0
+	+	10	0
+
+> ~/crazy2.ml
+	"	1	0
+	^	9	9
+	.	10	26
+	+	10	30
+	+	11	32
+	+	12	25
+	+	10	26
+	+	11	27
+	+	13	8
+	+	7	15
+	+	6	19
+	+	9	8
+	+	8	13
+	+	10	26
+
 > ~/eval.ml
 	"	1	0
-	^	12	10
-	.	12	12
+	^	20	30
+	.	20	29
 	+	21	2
 	+	17	7
 	+	26	7
@@ -216,6 +342,7 @@
 	+	26	48
 	+	14	31
 	+	12	12
+	+	20	29
 
 > ~/test.ml
 	"	16	17
