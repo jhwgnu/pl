@@ -79,7 +79,7 @@ struct
   let print_value n = print_endline(string_of_int n)
 end
 
-(*
+
 let print = fun x -> Zexpr.print_value(Zexpr.eval(Zexpr.emptyEnv, x))
 let var = fun x -> Zexpr.VAR x
 let num = fun x -> Zexpr.NUM x
@@ -106,4 +106,4 @@ let _ = try print(set("x", num 1, set("y", num 2, set("z", num(-1), max[var "x";
 let _ = try print(set("x", num 1, plus(set("y", num 2, plus(var "x", var "y")), var "y"))) with Zexpr.Error x ->
           if (x = "FreeVariable") then print_endline("Error Case 2 : Pass")
           else print_endline("Error Case 2 : Failure")
-*)
+

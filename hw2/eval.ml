@@ -25,7 +25,7 @@ let rec eval = function
 		else true
 	| LESS (expr1, expr2) -> cal(expr1) < cal(expr2)
 
-(*
+
 let _ =
   let test_case : int * bool -> unit = fun (n, x) ->
     print_endline ("Case " ^ string_of_int(n) ^ " : " ^ string_of_bool(x)) in
@@ -50,4 +50,4 @@ let _ =
   test_case(19, false = eval (LESS (NUM 3, NUM 1)));
   test_case(20, false = eval (LESS (PLUS (NUM 3, NUM 4), MINUS (NUM 5, NUM 1))));
   test_case(21, true = eval (LESS (PLUS (NUM 10, NUM 12), MINUS (NUM 10, NUM (-13)))));
-*)
+

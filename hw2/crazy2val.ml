@@ -16,7 +16,7 @@ let rec foo k = function
 
 let rec crazy2val = foo 0
 
-(*
+
 let mtwo = ZERO(ONE(MONE NIL))
 let one = ONE(NIL)
 let five = ONE(ZERO(ONE NIL))
@@ -40,4 +40,4 @@ let _ =
   test_case(6, 0, crazy2val(zero));
   test_case(7, 298, crazy2val(big1));
   test_case(8, -437, crazy2val(big2));
-*)
+

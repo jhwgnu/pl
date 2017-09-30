@@ -17,7 +17,7 @@ let rec foo areas = function
 
 let rec checkMetro = foo []
 
-(*
+
 let _ =
   let test_case : int * bool -> unit = fun (n, x) ->
     print_endline ("Case " ^ string_of_int(n) ^ " : " ^ string_of_bool(x)) in
@@ -31,5 +31,4 @@ let _ =
   test_case(8, true == checkMetro(CONNECT(AREA("a", STATION "a"), AREA("b", AREA("a", CONNECT(STATION "b", STATION "a"))))));
   test_case(9, false == checkMetro(CONNECT(AREA("c", STATION "c"), AREA("b", AREA("a", CONNECT(STATION "b", STATION "c"))))));
   test_case(10, false == checkMetro(STATION "a"))
-<<<<<<< HEAD
-  *)
+
