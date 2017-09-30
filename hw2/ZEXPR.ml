@@ -35,16 +35,47 @@ struct
     | VAR of id
     | LET of id * expr * expr
 
-  type environment = ...
-  type value = ...
+  type environment =(string * int) list
+  type value = int
 
-  let emptyEnv = ...
-  let eval = ...
+  let emptyEnv = []
 
-  let print_value = ...
+  let rec find_max current_max = function
+    | [] -> current_max
+    | hd::tl ->
+	match hd with
+	| NUM i ->
+	  if i > current_max then find_max(i)(tl)
+	  else find_max(current_max)(tl)
+	| _ -> 0
+
+  let rec find_value (env, id) =
+    match env with
+    | [] -> 0
+    | (s,i)::tl ->
+	if s=id then i
+	else find_value (tl, id)
+
+
+  let rec eval (env, expr) =
+    match expr with
+    | NUM i -> i
+    | PLUS (e1, e2)-> eval(env, e1) + eval(env, e2)
+    | MINUS (e1, e2)-> eval(env, e1) - eval(env, e2)
+    | MULT (e1, e2)-> eval(env, e1) * eval(env, e2)
+    | DIVIDE (e1, e2)-> eval(env, e1) / eval(env, e2)
+    | MAX (vals) -> 
+	(match vals with
+	| [] -> 0
+	| _ -> find_max(-100000)(vals)
+	)
+    | VAR (id) -> find_value(env, id)
+    | LET (id, e1, e2) -> eval((id, eval(env,e1))::env, e2)
+
+  let print_value n = print_endline(string_of_int n)
 end
 
-(*
+
 let print = fun x -> Zexpr.print_value(Zexpr.eval(Zexpr.emptyEnv, x))
 let var = fun x -> Zexpr.VAR x
 let num = fun x -> Zexpr.NUM x
@@ -71,4 +102,4 @@ let _ = try print(set("x", num 1, set("y", num 2, set("z", num(-1), max[var "x";
 let _ = try print(set("x", num 1, plus(set("y", num 2, plus(var "x", var "y")), var "y"))) with Zexpr.Error x ->
           if (x = "FreeVariable") then print_endline("Error Case 2 : Pass")
           else print_endline("Error Case 2 : Failure")
-*)
+
