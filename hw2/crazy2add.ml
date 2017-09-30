@@ -16,7 +16,22 @@ let rec foo k = function
 
 let rec crazy2val = foo 0
 
-let crazy2add c1 c2 = crazy2val(c1) + crazy2val(c2)
+let rec crazy2add (c1, c2) =
+	match (c1, c2) with
+	| (NIL, _) -> c2
+	| (_, NIL) -> c1
+	| (ZERO n1, ZERO n2) | (ONE n1, MONE n2) | (MONE n1, ONE n2) -> ZERO(crazy2add(n1,n2))
+	| (ZERO n1, ONE n2) | (ONE n1, ZERO n2) -> ONE(crazy2add(n1,n2))
+	| (ZERO n1, MONE n2) | (MONE n1, ZERO n2) -> MONE(crazy2add(n1,n2))
+	| (ONE n1, ONE n2) -> ZERO(crazy2add(crazy2add(n1,ONE(NIL)), n2))
+	| (MONE n1, MONE n2) -> ZERO(crazy2add(crazy2add(n1,MONE(NIL)), n2))
+
+	
+	
+	
+
+
+
 
 let mtwo = ZERO(ONE(MONE NIL))
 let one = ONE(NIL)
@@ -46,3 +61,4 @@ let _ =
   test_case (6, crazy2val(crazy2add(zero, mnine)), crazy2val(mnine));
   test_case (7, crazy2val(crazy2add(big1, big2)), crazy2val(crazy2add(big2, big1)));
   test_case (8, crazy2val(crazy2add(big1, crazy2add(big1, big2))), crazy2val(crazy2add(crazy2add(big1, big1), big2)));
+
