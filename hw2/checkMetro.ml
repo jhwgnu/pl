@@ -31,4 +31,5 @@ let _ =
   test_case(8, true == checkMetro(CONNECT(AREA("a", STATION "a"), AREA("b", AREA("a", CONNECT(STATION "b", STATION "a"))))));
   test_case(9, false == checkMetro(CONNECT(AREA("c", STATION "c"), AREA("b", AREA("a", CONNECT(STATION "b", STATION "c"))))));
   test_case(10, false == checkMetro(STATION "a"))
+<<<<<<< HEAD
   *)

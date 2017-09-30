@@ -2,7 +2,7 @@ module type Queue =
     sig
         type element
         type queue
-        exception EMPTY Q
+        exception EMPTY_Q
         val emptyQ: queue
         val enQ: queue * element -> queue
         val deQ: queue -> element * queue
@@ -11,13 +11,20 @@ module type Queue =
 module IntListQ =
     struct
         type element = int list
-        type queue = ...
-        exception EMPTY Q
-        let emptyQ = ...
-        let enQ = ...
-        let deQ = ...
-    end
+        type queue = element list * element list
+        exception EMPTY_Q
 
+        let emptyQ = ([], [])
+        let enQ ((left, right), el) = (el::left, right) 
+        let deQ (left, right) =
+		match right with		
+		| hd::tl -> (hd, (left, tl))
+		| [] ->
+		  (match List.rev(left) with
+		  | hd::tl -> (hd, (List.rev(tl), right))
+		  | [] -> raise(EMPTY_Q)
+		  )
+    end
 
 (*
 let q1 = IntListQ.emptyQ
@@ -48,5 +55,5 @@ let _ =
 let (x, y) = try IntListQ.deQ q13 with IntListQ.EMPTY_Q -> ([19682934], IntListQ.emptyQ)
 let _ = if(x = [19682934]) then print_endline ("Error Case : Pass")
   else print_endline("Error Case : Failure")
-
-  *)
+*)
+  
