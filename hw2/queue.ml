@@ -1,3 +1,25 @@
+module type Queue =
+    sig
+        type element
+        type queue
+        exception EMPTY Q
+        val emptyQ: queue
+        val enQ: queue * element -> queue
+        val deQ: queue -> element * queue
+    end
+
+module IntListQ =
+    struct
+        type element = int list
+        type queue = ...
+        exception EMPTY Q
+        let emptyQ = ...
+        let enQ = ...
+        let deQ = ...
+    end
+
+
+(*
 let q1 = IntListQ.emptyQ
 let q2 = IntListQ.enQ(q1, [1])
 let q3 = IntListQ.enQ(q2, [2;3])
@@ -26,3 +48,5 @@ let _ =
 let (x, y) = try IntListQ.deQ q13 with IntListQ.EMPTY_Q -> ([19682934], IntListQ.emptyQ)
 let _ = if(x = [19682934]) then print_endline ("Error Case : Pass")
   else print_endline("Error Case : Failure")
+
+  *)
