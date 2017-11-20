@@ -25,7 +25,7 @@ let rec process g_list =
 
 let rec shop r_list =
     match r_list with
-    | [] -> emptyL
+    | [] -> []
     | (person, cond_list)::r_tl ->
         (match cond_list with
             | [] -> (person, [])::shop(r_tl)
@@ -39,7 +39,7 @@ let shoppingList r_list = process(shop r_list)
 
 
 
-let rec print_intlist = function
+(* let rec print_intlist = function
 [] -> ()
 | e::l -> print_int e ; print_string " " ; print_intlist l
 
@@ -50,6 +50,9 @@ let rec print_giftlist = function
     print_intlist gift_list;
     print_endline " ";
     print_giftlist tl
+
+
+
 
 
 let rl1 = [
@@ -108,5 +111,4 @@ assert ((shoppingList rl4) = sl4); print_endline "4 pass";
 assert ((shoppingList rl5) = sl4); print_endline "5 pass";
 
 print_endline "pass all tests"
-
-
+ *)
