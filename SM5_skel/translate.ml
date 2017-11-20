@@ -20,7 +20,7 @@ module Translator = struct
     | K.TRUE -> [Sm5.PUSH (Sm5.Val (Sm5.B true))]
     | K.FALSE -> [Sm5.PUSH (Sm5.Val (Sm5.B false))]
     | K.UNIT -> [Sm5.PUSH (Sm5.Val (Sm5.Unit))]
-    | K.VAR id -> [Sm5.PUSH (Sm5.Id x); Sm5.LOAD]
+    | K.VAR id -> [Sm5.PUSH (Sm5.Id id); Sm5.LOAD]
     | K.SUB (e1, e2) -> trans e1 @ trans e2 @ [Sm5.SUB]
     | K.MUL (e1, e2) -> trans e1 @ trans e2 @ [Sm5.MUL]
     | K.DIV (e1, e2) -> trans e1 @ trans e2 @ [Sm5.DIV]
